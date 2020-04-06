@@ -39,5 +39,10 @@ public class RecursivTest {
         assertThat(recursiv.length("averylongword")).isEqualTo(13);
     }
 
+    @Test
+    @DisplayName("WHEN a word is received THEN its first uppercase letter is returned")
+    void firstUpperCase() {
+
+    }
 
 }
